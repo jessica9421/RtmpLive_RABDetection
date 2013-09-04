@@ -1,0 +1,24 @@
+﻿Build started 2013/8/28 9:23:12.
+     1>Project "D:\VisualStudio2008\Projects\RtmpLive_RABDetection\RtmpLiveEncoder\RtmpLiveEncoder.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RtmpLiveEncoder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\RtmpLiveEncoder.unsuccessfulbuild".
+         Touching "Debug\RtmpLiveEncoder.lastbuildstate".
+     1>Done Building Project "D:\VisualStudio2008\Projects\RtmpLive_RABDetection\RtmpLiveEncoder\RtmpLiveEncoder.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.21

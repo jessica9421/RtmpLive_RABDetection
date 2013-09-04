@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{3be50fe9-94ce-4949-99c0-f44181700345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rtmp">
+      <UniqueIdentifier>{a2a84cdc-b1fd-44eb-87ec-af4e487f629d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Flv">
+      <UniqueIdentifier>{7aedebbb-7060-4160-90fa-3770ce5bf3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DShow">
+      <UniqueIdentifier>{d142daa5-54d5-4e0a-8bfc-01ab63660f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{08c1e5e0-c1a0-442b-8081-7684506b1638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Encoder">
+      <UniqueIdentifier>{abb37910-3708-4402-818f-ed37bf554cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HKConnect">
+      <UniqueIdentifier>{7e1e6e41-d7d6-43f4-8bcf-1012c735653d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RABDetection">
+      <UniqueIdentifier>{51d77605-bb07-4df2-8600-246f6a161702}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\RtmpLiveEncoder.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RtmpLiveEncoder.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRtmp.h">
+      <Filter>Source Files\Rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="FlvReader.h">
+      <Filter>Source Files\Flv</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSAudioCaptureDevice.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSAudioGraph.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSCapture.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSCaptureDevice.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSGrabberCallback.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSGraph.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSVideoCaptureDevice.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\DSVideoGraph.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="dshow\qedit.h">
+      <Filter>Source Files\DShow</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Base.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Lock.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SimpleThread.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\AudioEncoderThread.h">
+      <Filter>Source Files\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\FAACEncoder.h">
+      <Filter>Source Files\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\VideoEncoderThread.h">
+      <Filter>Source Files\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\X264Encoder.h">
+      <Filter>Source Files\Encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="RtmpLiveEncoderApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtmpLiveEncoderDlg.h">
+      <Filter>Source Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="RtmpLiveEncoder.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base\DataBuffer.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="AmfByteStream.h">
+      <Filter>Source Files\Rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="BitWritter.h">
+      <Filter>Source Files\Rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="FlvWritter.h">
+      <Filter>Source Files\Flv</Filter>
+    </ClInclude>
+    <ClInclude Include="base\WaitEvent.h">
+      <Filter>Source Files\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="HKConnect\GeneralDef.h">
+      <Filter>Source Files\HKConnect</Filter>
+    </ClInclude>
+    <ClInclude Include="HKConnect\HCNetSDK.h">
+      <Filter>Source Files\HKConnect</Filter>
+    </ClInclude>
+    <ClInclude Include="HKConnect\plaympeg4.h">
+      <Filter>Source Files\HKConnect</Filter>
+    </ClInclude>
+    <ClInclude Include="HiKConn.h">
+      <Filter>Source Files\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RGB.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RABDetection\RABDetection.h">
+      <Filter>Source Files\RABDetection</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibRtmp.cpp">
+      <Filter>Source Files\Rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="FlvReader.cpp">
+      <Filter>Source Files\Flv</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSAudioCaptureDevice.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSAudioGraph.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSCapture.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSCaptureDevice.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSGrabberCallback.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSGraph.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSVideoCaptureDevice.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="dshow\DSVideoGraph.cpp">
+      <Filter>Source Files\DShow</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Lock.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\SimpleThread.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\AudioEncoderThread.cpp">
+      <Filter>Source Files\Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\FAACEncoder.cpp">
+      <Filter>Source Files\Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\VideoEncoderThread.cpp">
+      <Filter>Source Files\Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\X264Encoder.cpp">
+      <Filter>Source Files\Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="RtmpLiveEncoderApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtmpLiveEncoderDlg.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="RtmpLiveEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlvWritter.cpp">
+      <Filter>Source Files\Flv</Filter>
+    </ClCompile>
+    <ClCompile Include="base\WaitEvent.cpp">
+      <Filter>Source Files\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="HikConn.cpp">
+      <Filter>Source Files\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RABDetection\RABDetection.cpp">
+      <Filter>Source Files\RABDetection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RtmpLiveEncoder.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
